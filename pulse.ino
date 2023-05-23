@@ -9,13 +9,13 @@ LiquidCrystal_I2C lcd (0x27, 16, 2);
 #define REPORTING_PERIOD_MS 500
 #define PUB_PERIOD_MS 2000
 
-#define WLAN_SSID "IbelieveWIcanFI"
-#define WLAN_PASS "ylle5871"
+#define WLAN_SSID ""
+#define WLAN_PASS ""
 
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883
-#define AIO_USERNAME  "sid25ta"
-#define AIO_KEY       "aio_OAfb88QfCeXeCKzsnVE7yObVY0GE"
+#define AIO_USERNAME  ""
+#define AIO_KEY       ""
 
 WiFiClient client;
 
